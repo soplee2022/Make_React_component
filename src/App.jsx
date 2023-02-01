@@ -1,4 +1,4 @@
-import Step from '../src/component/Step'
+import Step from './component/Step'
 
 function App() {
   return (
