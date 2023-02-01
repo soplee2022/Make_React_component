@@ -1,5 +1,5 @@
-function Line() {
-  return <div className='border-b-2 w-40  border-primary h-2'></div>;
+function Line({status}) {
+  return <div className={`border-b-[1px] w-40 h-2 ${status}`}></div>;
 }
 
 export default Line
